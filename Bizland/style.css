@@ -1,0 +1,308 @@
+li{
+    list-style: none;
+}
+.headersection{
+    background-color:rgb(2, 59, 109);
+}
+.logo a{
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+.section-i i{
+    opacity:0.5;
+}
+.section-i i:hover{
+    cursor: pointer;
+    opacity: 1.0;
+}
+.navbar ul{
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 15px;
+    display: block;
+}
+.navbar ul li{
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    background-color:#f0e9e9;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid blue;
+    border-width: 2px;
+}
+.navbar ul ul{
+    position: absolute;
+    background-color:#f0e9e9;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    display: none;  
+}
+.navbar ul ul li{
+    float: none;
+    width: 140px;
+}
+.navbar ul ul ul{
+    top: 0px;
+    left: 100%;
+}
+.navbar ul li:hover >ul{
+   display: block;
+}
+.droplist{
+    position: relative;
+    z-index: 1;
+}
+#hero{
+    background:url(image/hero-bg.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.col-md-12{
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+}
+.icon{
+    font-size: 50px;
+}
+.service_section:hover{
+    background-color:#007aff;
+    color: #fff;
+}
+.percentage-skill{
+     background-color:#007aff;
+}
+.skill i{
+    position: relative;
+    float: right;
+}
+.count-emjo i{
+    font-size: 43px;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+}
+.portfolio_list{
+    list-style: none;
+    border-radius: 50px;
+    padding: 2px 15px;
+    font-size: 30px;
+    float:right;
+}
+img.part5 {
+    position: relative;
+    bottom: 132px;
+}
+img.part6{
+    position: relative;
+    bottom: 132px;
+}
+img.part7 {
+    position: relative;
+    bottom: 324px;
+    left: 16px;
+}
+img.part8 {
+    position: relative;
+    right: 412px;
+    bottom: 70px;
+}
+.team_detail img{
+    margin-bottom: 20px;
+    width:100%;
+}
+.Advanced{
+    width: 98px;
+    position: absolute;
+    top: 26px;
+    right: -11px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 15px;
+    padding: 1px 0 3px 0;
+    background: #106eea;
+    color: #fff;
+}
+.btn-buy{
+    font-size: 17px;
+    padding: 10px;
+    position: relative;
+    left: 22px;
+    border-radius: 13px;
+   background-color: #007aff;
+   color: #fff;
+}
+.btn-buy:hover{
+    opacity: 0.8;
+    text-decoration: none;
+}
+.pricing li{
+    padding: 3px ;
+}
+.card button{
+gap: 23px;
+ color: black;
+}
+.box-info i{
+    font-size: 43px;
+    color: #007aff;
+}
+.footer-container{
+    margin-bottom: 30px;
+}
+.footer-link{
+    margin-bottom: 30px 
+}
+.footer-link li a{
+    color: black;
+   text-decoration: none;
+}
+.footer-link li a:hover{
+    color: #007aff;
+}
+.credits{
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    color: #444444;
+}
+.social-link a{
+    font-size: 18px;
+    display: inline-block;
+    background: #106eea;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.copyright{
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+}
+.gotoallowup{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #106eea;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    /* transition: all 0.4; */
+}
+@media (max-width:1200px){
+     .navbar li a{
+        font-size: 14px;
+     }
+     .portfolio_list{
+        text-align: center;
+     }
+     .social-link{
+        font-size: 1px;
+     }
+}
+@media (max-width:992px){
+  .navbar li a{
+    font-size: 14px;
+  }
+  .headersection i{
+    font-size: 15px;
+  }
+  .free_download{
+    font-size: 13px;
+  }
+  .section-i{
+    display: none;
+  }
+  .navbar li a{
+    display: none;
+ }
+ .pricing-item{
+    padding-bottom: 53px;
+ }
+.part6{
+    position: relative;
+    bottom: 23vh;
+}
+.teamLeader{
+    padding-bottom: 50px;
+}
+}
+@media (max-width: 768px){
+    .headersection .i-tag{
+        display: none;
+    }
+    .image-camp{
+        text-align: center;
+    }
+    .service-class{
+       text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .img{
+       display: none;
+    }
+    .bizland{
+        position: relative;
+        right: 35vh;
+    }
+    .free_download{
+        position:relative;
+        bottom: 19px;
+    }
+    .header-info{
+      font-size: 8px;
+      }
+      .footer-copyright{
+        font-size: 23px;
+      }
+}

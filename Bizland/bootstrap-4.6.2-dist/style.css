@@ -1,0 +1,9 @@
+.container{
+    border: 8px solid black;
+}
+.row{
+    border: 5px solid red;
+}
+.col-md,.col-lg,.col-3,.col-4,.col-6,.col-9,.col-3{
+    border: 2px solid blue;
+}
